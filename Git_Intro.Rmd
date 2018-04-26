@@ -36,7 +36,7 @@ One of the key principles is to continuously plan, build and release small impro
 
 Agile software development describes an approach to software development under which requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional teams
 
-## DFS
+## DVC
 
 A distributed version control system is a type of version control system.  
 It usually has characteristics: 
@@ -55,6 +55,8 @@ Git is a distributed version control system.
 - local repository  
 - remote repository
 
+![Locations](./png/Locations_small.png)
+
 ## Remote Repository
 
 [miceFast - Github](https://github.com/Polkas/miceFast)
@@ -70,12 +72,54 @@ In theory we could do most of the things using only BitBucket or Github
 - fork a repository - buckup a project or prepare for pull request  (fork have to be updated manually)
 - pull request as comments to same part of project
 
-call down if you your pull request is meaningless - receiver will should see that
+calm down if your pull request is meaningless - receiver should see that
 
 ## Git Graph Model
 
 ![The Git Graph](./png/TheGitGraph_small.png)
 
+
+
+## Bash
+
+```
+echo
+ls -l -a
+mkdir
+cd .. cd / cd ~ cd directory
+cp
+mv
+rm -r # directory
+rm
+|/>/<
+touch
+nano/vim
+head
+tail
+cat
+tac
+less
+man wc
+wc file.txt
+grep
+```
+
+## CM Practice Intro
+
+```
+clone
+touch file
+nano file
+git status
+git add file
+git commit -m ""
+git remote -v
+git push origin master
+```
+
+```
+git log
+```
 
 ## Git Objects
 
